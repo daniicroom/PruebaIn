@@ -15,7 +15,12 @@ namespace PruebaIn
             string men = "";
             System.Console.Write("Escriba una sentencia: ");
             men = System.Console.ReadLine();
-            System.Console.Write("Dato Transformado: " + men);
+            System.Console.Write("Setencia con cambio de orden: " + PruebaLogica.trans(men));
+            Console.ReadKey();
+            Console.Clear();
+            System.Console.Write("Escriba una sentencia: ");
+            men = System.Console.ReadLine();
+            System.Console.Write("Dato Transformado: " + PruebaLogica.Tranform(men));
             Console.ReadKey();
             Console.Clear();
             System.Console.Write("Escriba un numero: ");
